@@ -1,0 +1,63 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body{
+    background-image: url("../img/fondo-contactos.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.navbar-brand{
+    font-size: 5rem;
+}
+.card{
+    background-color: #eee1e191;
+    border-radius: 2rem;
+}
+.img-contacto{
+    width: 20rem;
+    height: 20rem;
+    margin: 0 auto;
+}
+.boton{
+    display: block;
+    border: 0;
+    border-radius: .5rem;
+    width: 12rem;
+    margin: 0 auto;
+    padding: 1rem 0;
+    font-size: 2rem;
+    background-color: #4663e4;
+    color: white;
+    font-weight: 700;
+    transition: all .5s ease;
+}
+.boton:hover{
+    background-color: #212dd4;
+}
+
+.campos{
+    width: 80%;
+    margin: 0 auto;
+}
+.campos input,
+label{
+    font-size: 2rem;
+}
+.campo-id{
+    width: 30%;
+}
+.contenedor-boton{
+    background-color: #2d2c31c9;
+}
+.error{
+    font-size: 2rem;
+    color: #e0d6d6;
+    font-weight: bolder;
+}
